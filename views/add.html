@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <div class="card card-body">
+        <h3>Thêm thành phố</h3>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="nameCity">Thành phố</label>
+                <input type="text" name="nameCity" id="nameCity" placeholder="Thành phố" required></div>
+            <div class="form-group">
+                <label for="nameCountry">Quốc gia</label>
+                <input type="text" name="nameCountry" id="nameCountry" placeholder="Quốc gia"></div>
+            <div class="form-group">
+                <label for="type">Diện tích</label>
+                <input type="number" name="dientich" id="type" placeholder="Diện tích" required></div>
+            <div class="form-group">
+                <label for="price">Dân số</label>
+                <input type="number" name="danso" id="price" placeholder="Dân số" required></div>
+            <div class="form-group">
+                <label for="GDP">GDP</label>
+                <input type="number" name="gdp" id="GDP" placeholder="GDP" required></div>
+            <div class="form-group">
+                <label for="detail">Giới thiệu</label>
+                <textarea id="detail" name="gioithieu" placeholder="Giới thiệu" cols="30" rows="10" class="form-control"
+                          required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Thêm</button>
+            <button class="btn btn-primary"><a href="/render" style="color: white">Trở về</a></button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
